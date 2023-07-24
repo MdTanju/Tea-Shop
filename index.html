@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--font awsome-->
+    <script src="https://kit.fontawesome.com/4d7c92435f.js" crossorigin="anonymous"></script>
     <!--google font-->
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Manrope:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -33,10 +35,38 @@
       <!--taiwind color-->
 </head>
 
-<body>
+<body class="m-6">
 
 <!------------header part -------->
-    <header>
+    <header class="container mx-auto mt-4 lg:mt-7">
+
+        <div class="hero ">
+            <div class="hero-content flex-col lg:flex-row">
+
+             
+              <div>
+                <h1 class=" text-4xl lg:text-7xl font-extrabold capitalize">It's Good <br>
+                    Tea time at The   <br>
+                    Tea House</h1>
+                <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="btn btn-primary">explore more</button>
+              </div>
+        <div>
+            <img src="./images/banner.png" class="max-w-sm " />
+
+            <!--star-->
+             <div class=" -mt-20 flex items-center gap-3 drop-shadow-lg bg-white w-60  p-2 rounded-lg" >
+              <i class="fa-solid fa-star text-3xl ml-3 text-yellow-500"></i>
+              <div>
+               
+                <h3 class="text-3xl  ">5.00</h3>
+                  <p>Trust Pilot Ratings</p>
+           </div>
+            <!--star-->        
+        </div>
+
+            </div>
+          </div>
 
 
 
@@ -44,6 +74,68 @@
 <!------------header part  end-------->
 
 <!------------main  part -------->
+    <main class="container mx-auto">
+        <section class="mt-7">
+            <div>
+                <div class="text-center">
+                    <h1 class="text-3xl capitalize font-semibold">Our Featured Products</h1>
+                </div>
+                <div class="mt-3  text-sm max-w-3xl mx-auto text-center">
+                    <p >There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                </div>
+              </div>
+            
+            <!--card   coffee-->
+         <div class="mt-7 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!--coffee 1 card-->
+          <div class="card  bg-zinc-100 shadow-xl p-4">
+            <figure><img class="mt-3" src="./images/tea-1.png" alt="Shoes" /></figure>
+            <div class="card-body text-center items-center m-4 ">
+              <h2 class="card-title">Shoes!</h2>
+              <p class="text-sm">If a dog chews shoes whose shoes does he choose?</p>
+             
+            </div>
+          </div>
+         
+         <!--coffee 2 card-->
+         <div class="card bg-zinc-100 shadow-xl p-4">
+          <figure><img class="mt-3" src="./images/tea-1.png" alt="Shoes" /></figure>
+          <div class="card-body text-center items-center m-4 ">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+           
+          </div>
+        </div>
+      
+         <!--coffee 3 card-->
+         <div class="card  bg-zinc-100 shadow-xl p-4">
+          <figure><img class="mt-3" src="./images/tea-1.png" alt="Shoes" /></figure>
+          <div class="card-body text-center items-center m-4 ">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+           
+          </div>
+        </div>
+      
+         <!--coffee 4 card-->
+         <div class="card  bg-zinc-100 shadow-xl p-4">
+          <figure><img class="mt-3" src="./images/tea-1.png" alt="Shoes" /></figure>
+          <div class="card-body text-center items-center m-4 ">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+           
+          </div>
+        </div>
+       </div>
+       </div>
+      </div>
+    </div>
+
+
+          
+        </section>
+
+    </main>
 
 
 
